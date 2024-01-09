@@ -71,6 +71,7 @@ namespace ConsoleUI
             //customerManager.Delete(new Customer {CustomerId=1005 });
         }
 
+        // user Test method
         private static void UserTest(UserManager userManager)
         {
             var result = userManager.GetAll();
