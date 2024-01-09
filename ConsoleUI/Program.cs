@@ -80,6 +80,7 @@ namespace ConsoleUI
             foreach (var user in result.Data)
             {
                 Console.WriteLine($"{user.UserId}\t{user.FirstName}\t\t{user.LastName}\t\t{user.Email}");
+                Console.WriteLine(user.UserName);
 
             }
 
